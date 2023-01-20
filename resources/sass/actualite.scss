@@ -1,0 +1,112 @@
+.row-actu-bandeau{
+    background-image: url("../img/bandeau-activity.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .diagonal-box {
+        position: relative;
+        left: -20%;
+        background-color: rgba(0,0,0,0.89);
+        transform: skew(20deg);
+        width: 100%;
+
+        .content {
+            transform: skew(-20deg);
+            padding: 15% 20% 15% 30%;
+            text-align: left;
+
+            p {
+                color: $white-color;
+                font-family: 'Poppins';
+                font-size: 25px;
+            }
+
+            .texte_orange{
+                color: $gold-text;
+            }
+
+            .title{
+                font-family: 'Bebas Neue';
+                font-size: 70px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.row-articles{
+    padding: 5%;
+    font-family: 'Poppins';
+    font-size: 12px;
+
+    .card{
+        font-size: 12px;
+        text-align: left;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
+        .card-title{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .btn-card{
+            background-color: transparent;
+            color: $grey-color;
+            font-size: 12px;
+        }
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.row-more{
+    .btn-more{
+        background-color: $gold-color;
+        font-family: 'Bebas Neue';
+        font-weight: normal;
+        font-size: 30px;
+        border-radius: 50px;
+        width: 75%;
+        color: $white-color;
+        margin: 20% 0;
+    }
+
+    .btn-more:hover{
+        background-color: $gold-clair;
+        color: $white-color;
+    }
+
+    .img-articles{
+        width: 50%;
+        height: auto;
+    }
+}
+
+.gallery-row{
+    padding: 5%;
+    text-align: left;
+
+    .titre{
+        font-family: 'Bebas Neue';
+        font-size: 70px;
+        font-weight: normal;
+    }
+
+    .lightbox{
+        img{
+            width: 100%;
+            margin-bottom: 2%;
+            transition: 0.2s ease-in-out;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        img:hover{
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+    }
+}

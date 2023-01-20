@@ -1,0 +1,36 @@
+.row-bandeau {
+    background-image: url("../img/background-bandeau.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .diagonal-box {
+        background-color: rgba(0, 0, 0, 0.89);
+        transform: skew(-20deg);
+        width: 120%;
+        .content {
+            transform: skew(20deg);
+            padding: 15% 20% 15% 15%;
+            text-align: center;
+            p {
+                color: $white-color;
+                font-family: 'Poppins';
+                font-size: 25px;
+            }
+            .title {
+                font-family: 'Bebas Neue';
+                font-size: 70px;
+                text-transform: capitalize;
+            }
+            .btn-bandeau {
+                background-color: $gold-color;
+                font-family: 'Bebas Neue';
+                font-size: 35px;
+                border-radius: 50px;
+                width: 50%;
+                margin-top: 60px;
+            }
+            .btn-bandeau:hover {
+                background-color: $gold-clair;
+            }
+        }
+    }
+}

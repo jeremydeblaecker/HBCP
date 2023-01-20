@@ -1,0 +1,89 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+// Variables
+@import "variables";
+@import "accueil/annonce_special";
+@import "accueil/bandeau_dossier";
+@import "accueil/classement_results";
+@import "accueil/next_match";
+@import "accueil/principaux_partenaires";
+@import "actualite";
+@import "club";
+@import "application";
+@import "contact";
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg-verydark{
+    background-color: $black-color;
+}
+
+.navbar {
+    font-family: 'Bebas Neue';
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $black-color;
+
+    .navbar-nav{
+        .nav-link{
+            color: rgba(255,255,255,1);
+        }
+        .nav-link:hover{
+            color: $gold-color;
+        }
+    }
+    .navbar-toggler{
+        color: $white-color;
+        border: none;
+    }
+
+    img{
+        width: 196px;
+    }
+
+    li {
+        font-size: 24px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+footer{
+    .row {
+        padding: 15px;
+
+        .col-lg{
+            font-size: 16px;
+            text-align: center;
+            vertical-align: middle;
+
+            a, .no-link{
+                color: $white-color;
+                text-decoration: none;
+            }
+            a:hover{
+                color: $gold-color;
+                text-decoration: none;
+            }
+
+            .no-link{
+                cursor: auto;
+            }
+
+            .no-link:hover{
+                color: $white-color;
+                text-decoration: none;
+            }
+
+            .footer-link{
+                margin-right: 20px;
+            }
+        }
+    }
+}

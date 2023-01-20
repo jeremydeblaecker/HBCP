@@ -1,0 +1,46 @@
+.row-lightGold {
+    background-color: $light-yellow;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: center;
+    padding: 5%;
+
+    .col-rightAlign {
+        .titre {
+            font-family: 'Bebas Neue';
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+
+        .white-gold{
+            font-family: 'Bebas Neue';
+            font-size: 71px;
+            background-color: $gold-color;
+            border-radius: 10px;
+            padding: 5%;
+            color: $white-color;
+        }
+
+        .text-point {
+            margin-top: 80%;
+        }
+    }
+
+    .col-leftAlign {
+        .vs-club {
+            border-style: solid;
+            border-width: 4px;
+            border-color: $gold-color;
+            border-radius: 10px;
+            margin-left: 25%;
+            padding: 5%;
+            text-transform: uppercase;
+        }
+
+        .versus {
+            font-family: 'Marck Script';
+            font-size: 70px;
+            margin-top: 25%;
+        }
+    }
+}

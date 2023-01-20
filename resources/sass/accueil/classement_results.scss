@@ -1,0 +1,62 @@
+.row {
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: center;
+
+    .col-padding {
+        padding: 5%;
+
+        .titre {
+            font-family: 'Bebas Neue';
+            font-size: 50px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+        .table {
+            th {
+                border-style: none;
+                padding-bottom: 4%;
+
+                .img-rounded {
+                    max-height: 65px;
+                }
+            }
+
+            .th-title {
+                padding-bottom: 10%;
+            }
+
+            td {
+                vertical-align: middle;
+            }
+        }
+
+        .tableau_result_1{
+            background-color: $light-yellow;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+
+            p {
+                margin: 18px 0;
+            }
+        }
+
+        .tableau_result_2{
+            background-color: $light-grey;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+
+            p {
+                margin: 18px 0;
+                text-transform: uppercase;
+            }
+        }
+
+        .bandeau_result{
+            padding: 57px 0 0 0;
+        }
+    }
+}
+

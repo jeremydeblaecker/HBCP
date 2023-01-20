@@ -1,0 +1,75 @@
+.row {
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 18px;
+
+    .col-lightGold {
+        padding: 5%;
+        background-color: $light-yellow;
+        text-align: left;
+
+        p{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .b1_titre {
+            text-transform: uppercase;
+            font-family: 'Bebas Neue';
+            font-weight: normal;
+            font-size: 70px;
+        }
+    }
+
+    .col-form {
+        padding: 5%;
+        text-align: left;
+
+        .form-margin {
+            margin-bottom: 5%;
+
+            .input_text {
+                background-color: #F6F6F6;
+                border-color: #CCCCCC57;
+                border-radius: 5px;
+            }
+        }
+
+        .btn-contact {
+            background-color: $gold-color;
+            font-family: 'Bebas Neue';
+            font-weight: normal;
+            font-size: 30px;
+            border-radius: 50px;
+            width: 50%;
+            margin-top: 15%;
+            color: $white-color;
+        }
+
+        .btn-contact:hover {
+            background-color: $gold-clair;
+        }
+    }
+
+    .b3 {
+        padding: 5%;
+        text-align: left;
+
+        h3 {
+            font-family: 'Bebas Neue';
+            font-weight: normal;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+
+        .texte_orange {
+            color: $gold-text;
+        }
+    }
+}

@@ -1,0 +1,725 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);@import url(https://fonts.googleapis.com/css2?family=Marck+Script&display=swap);.row {
+  font-family: "Poppins";
+}
+
+.row .col-stage-text {
+  position: relative;
+  padding: 5%;
+}
+
+.row .col-stage-text .content {
+  text-align: left;
+  font-size: 18px;
+}
+
+.row .col-stage-text .content .grand {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.row .col-stage-text .content .gras {
+  font-weight: bold;
+}
+
+.row .col-stage-text .content .texte_orange {
+  color: #FCC400;
+}
+
+.row .col-stage-text .content .bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.row .col-stage-text .icon-stage {
+  z-index: 1;
+  position: absolute;
+  bottom: 5%;
+  right: -15%;
+}
+
+.row .col-background-stage {
+  position: relative;
+  background: url(/images/background-stage.png?77831798559c355f3a34cb83f8696664);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row .col-background-stage .layer {
+  background-color: rgba(109, 134, 255, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row .col-background-stage #texte_image {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+}
+
+.row .col-background-stage #texte_image .grand {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-size: 70px;
+}
+
+.row .col-background-stage #texte_image .texte_orange {
+  color: #FCC400;
+}
+
+.row .col-background-stage #texte_image .gras_blanc {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.row-bandeau {
+  background-image: url(/images/background-bandeau.png?ab695269686867d62c811f5f80918e41);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-bandeau .diagonal-box {
+  background-color: rgba(0, 0, 0, 0.89);
+  transform: skew(-20deg);
+  width: 120%;
+}
+
+.row-bandeau .diagonal-box .content {
+  transform: skew(20deg);
+  padding: 15% 20% 15% 15%;
+  text-align: center;
+}
+
+.row-bandeau .diagonal-box .content p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+
+.row-bandeau .diagonal-box .content .texte_orange {
+  color: #FCC400;
+}
+
+.row-bandeau .diagonal-box .content .title {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-transform: capitalize;
+}
+
+.row-bandeau .diagonal-box .content .btn-bandeau {
+  background-color: #ffd700;
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  border-radius: 50px;
+  width: 50%;
+  margin-top: 60px;
+  color: #ffffff;
+}
+
+.row-bandeau .diagonal-box .content .btn-bandeau:hover {
+  background-color: #FDDB66;
+}
+
+.row {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: center;
+}
+
+.row .col-padding {
+  padding: 5%;
+}
+
+.row .col-padding .titre {
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.row .col-padding .table th {
+  border-style: none;
+  padding-bottom: 4%;
+}
+
+.row .col-padding .table th .img-rounded {
+  max-height: 65px;
+}
+
+.row .col-padding .table .th-title {
+  padding-bottom: 10%;
+}
+
+.row .col-padding .table td {
+  vertical-align: middle;
+}
+
+.row .col-padding .tableau_result_1 {
+  background-color: #FFFCF2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row .col-padding .tableau_result_1 p {
+  margin: 18px 0;
+}
+
+.row .col-padding .tableau_result_2 {
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row .col-padding .tableau_result_2 p {
+  margin: 18px 0;
+  text-transform: uppercase;
+}
+
+.row .col-padding .bandeau_result {
+  padding: 57px 0 0 0;
+}
+
+.row-lightGold {
+  background-color: #FFFCF2;
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: center;
+  padding: 5%;
+}
+
+.row-lightGold .col-rightAlign .titre {
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.row-lightGold .col-rightAlign .white-gold {
+  font-family: "Bebas Neue";
+  font-size: 71px;
+  background-color: #ffd700;
+  border-radius: 10px;
+  padding: 5%;
+  color: #ffffff;
+}
+
+.row-lightGold .col-rightAlign .text-point {
+  margin-top: 80%;
+}
+
+.row-lightGold .col-leftAlign .vs-club {
+  border-style: solid;
+  border-width: 4px;
+  border-color: #ffd700;
+  border-radius: 10px;
+  margin-left: 25%;
+  padding: 5%;
+  text-transform: uppercase;
+}
+
+.row-lightGold .col-leftAlign .versus {
+  font-family: "Marck Script";
+  font-size: 70px;
+  margin-top: 25%;
+}
+
+.row-padding {
+  padding: 5%;
+}
+
+.row-padding .titre {
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.row-padding .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+.row-padding .grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+.row-padding .middle-button .btn-hbcp {
+  background-color: #ffd700;
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  border-radius: 50px;
+  width: 15%;
+  margin: 8% 0;
+  color: #ffffff;
+}
+
+.row-padding .middle-button .btn-hbcp:hover {
+  background-color: #FDDB66;
+  color: #ffffff;
+}
+
+.row-actu-bandeau {
+  background-image: url(/images/bandeau-activity.png?71f7b4ca9c003da10f356c1532a324ae);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-actu-bandeau .diagonal-box {
+  position: relative;
+  left: -20%;
+  background-color: rgba(0, 0, 0, 0.89);
+  transform: skew(20deg);
+  width: 100%;
+}
+
+.row-actu-bandeau .diagonal-box .content {
+  transform: skew(-20deg);
+  padding: 15% 20% 15% 30%;
+  text-align: left;
+}
+
+.row-actu-bandeau .diagonal-box .content p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+
+.row-actu-bandeau .diagonal-box .content .texte_orange {
+  color: #FCC400;
+}
+
+.row-actu-bandeau .diagonal-box .content .title {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-transform: capitalize;
+}
+
+.row-articles {
+  padding: 5%;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.row-articles .card {
+  font-size: 12px;
+  text-align: left;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.row-articles .card .card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.row-articles .card .btn-card {
+  background-color: transparent;
+  color: #A5A5A5;
+  font-size: 12px;
+}
+
+.row-articles .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.row-more .btn-more {
+  background-color: #ffd700;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 75%;
+  color: #ffffff;
+  margin: 20% 0;
+}
+
+.row-more .btn-more:hover {
+  background-color: #FDDB66;
+  color: #ffffff;
+}
+
+.row-more .img-articles {
+  width: 50%;
+  height: auto;
+}
+
+.gallery-row {
+  padding: 5%;
+  text-align: left;
+}
+
+.gallery-row .titre {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.gallery-row .lightbox img {
+  width: 100%;
+  margin-bottom: 2%;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-row .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.row-club-bandeau {
+  background-image: url(/images/bandeau-club.png?7328cc37fbe41e518d077ce79c03096f);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-club-bandeau .diagonal-box {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.89);
+  transform: skew(20deg);
+  left: -20%;
+  width: 120%;
+}
+
+.row-club-bandeau .diagonal-box .content {
+  transform: skew(-20deg);
+  padding: 15% 20% 15% 15%;
+  margin-left: 15%;
+  text-align: left;
+}
+
+.row-club-bandeau .diagonal-box .content p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+
+.row-club-bandeau .diagonal-box .content .texte_orange {
+  color: #FCC400;
+}
+
+.row-club-bandeau .diagonal-box .content .title {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-transform: capitalize;
+}
+
+.row-histoire {
+  padding: 5%;
+  background-color: #FFFCF2;
+  text-align: center;
+}
+
+.row-histoire .title-histoire {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.row-histoire .contenu-histoire {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.row-equipe {
+  padding: 5%;
+  text-align: left;
+}
+
+.row-equipe .title-equipes {
+  font-size: 70px;
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+}
+
+.row-equipe .subtitle-equipes {
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.row-equipe .contenu {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.row-equipe .col-imgcenter {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.row-arbitrage {
+  padding: 5%;
+  text-align: left;
+}
+
+.row-arbitrage .title-arbitrage {
+  font-size: 70px;
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+}
+
+.row-arbitrage .contenu {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.row-arbitrage .col-imgcenter {
+  text-align: center;
+}
+
+.row-bureau {
+  padding: 5%;
+}
+
+.row-bureau .titre {
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.row-bureau .carousel {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.row-bureau .carousel .soustitre {
+  color: #FCC400;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.row-bureau .carousel .subtitle {
+  font-weight: bold;
+}
+
+.row-bureau .carousel .linked {
+  text-align: left;
+  color: #6D86FF;
+}
+
+.row-bureau .carousel .contenu {
+  text-align: left;
+}
+
+.row-bureau .carousel .contenu .texte_orange {
+  color: #FCC400;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.row-intro {
+  padding: 5%;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.row-intro #text_deco {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 70px;
+}
+
+.row-intro .texte_color {
+  color: #FCC400;
+}
+
+.row-presentation {
+  font-family: "Poppins";
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.row-presentation .col-appinfos .titre_equipe {
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.row-presentation .col-appinfos .img_logo1 {
+  padding: 1%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.row-presentation .col-appinfos .text_equipe {
+  text-align: left;
+  font-size: 14px;
+}
+
+.row-applink {
+  background-color: #FFFCF2;
+}
+
+.row-applink .store-inline img {
+  margin: 5%;
+}
+
+.row {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.row .col-lightGold {
+  padding: 5%;
+  background-color: #FFFCF2;
+  text-align: left;
+}
+
+.row .col-lightGold p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.row .col-lightGold .b1_titre {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 70px;
+}
+
+.row .col-form {
+  padding: 5%;
+  text-align: left;
+}
+
+.row .col-form .form-margin {
+  margin-bottom: 5%;
+}
+
+.row .col-form .form-margin .input_text {
+  background-color: #F6F6F6;
+  border-color: #CCCCCC57;
+  border-radius: 5px;
+}
+
+.row .col-form .btn-contact {
+  background-color: #ffd700;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 50%;
+  margin-top: 15%;
+  color: #ffffff;
+}
+
+.row .col-form .btn-contact:hover {
+  background-color: #FDDB66;
+}
+
+.row .b3 {
+  padding: 5%;
+  text-align: left;
+}
+
+.row .b3 h3 {
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.row .b3 p {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.row .b3 .texte_orange {
+  color: #FCC400;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.bg-verydark {
+  background-color: #000000;
+}
+
+.navbar {
+  font-family: "Bebas Neue";
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffd700;
+}
+
+.navbar .navbar-toggler {
+  color: #ffffff;
+  border: none;
+}
+
+.navbar img {
+  width: 196px;
+}
+
+.navbar li {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .row {
+  padding: 15px;
+}
+
+footer .row .col-lg {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer .row .col-lg a,
+footer .row .col-lg .no-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .row .col-lg a:hover {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer .row .col-lg .no-link {
+  cursor: auto;
+}
+
+footer .row .col-lg .no-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .row .col-lg .footer-link {
+  margin-right: 20px;
+}
+

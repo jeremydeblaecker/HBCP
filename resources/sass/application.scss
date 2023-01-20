@@ -1,0 +1,55 @@
+.row-intro{
+    padding: 5%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+
+    #text_deco{
+        text-transform: uppercase;
+        font-family: 'Bebas Neue';
+        font-weight: normal;
+        font-size: 70px;
+    }
+
+    .texte_color{
+        color: $gold-text;
+    }
+}
+
+.row-presentation{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+
+    .col-appinfos{
+        .titre_equipe{
+            font-family: 'Bebas Neue';
+            font-size: 50px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .img_logo1{
+            padding: 1%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+
+        .text_equipe{
+            text-align: left;
+            font-size: 14px;
+        }
+    }
+}
+
+.row-applink{
+    background-color: $light-yellow;
+
+    .store-inline{
+        img{
+            margin: 5%;
+        }
+    }
+}

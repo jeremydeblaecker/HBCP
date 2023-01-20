@@ -1,0 +1,81 @@
+.row {
+    font-family: 'Poppins';
+
+    .col-stage-text {
+        position: relative;
+        padding: 5%;
+
+        .content {
+            text-align: left;
+            font-size: 18px;
+
+            .grand{
+                font-family: 'Bebas Neue';
+                font-size: 70px;
+                text-transform: uppercase;
+            }
+
+            .gras{
+                font-weight: bold;
+            }
+
+            .texte_orange{
+                color : $gold-text;
+            }
+
+            .bold-italic {
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+
+        .icon-stage {
+            z-index: 1;
+            position: absolute;
+            bottom: 5%;
+            right: -15%;
+        }
+    }
+
+    .col-background-stage {
+        position: relative;
+        background: url("../../img/background-stage.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .layer {
+            background-color: rgba(109,134,255,0.35);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #texte_image{
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
+            text-align: right;
+
+            .grand{
+                text-transform: uppercase;
+                font-family: 'Bebas Neue';
+                font-size: 70px;
+            }
+
+            .texte_orange{
+                color : $gold-text;
+            }
+
+            .gras_blanc{
+                color: $white-color;
+                font-weight: bold;
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+
+

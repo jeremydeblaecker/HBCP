@@ -1,0 +1,43 @@
+.row-padding {
+    padding: 5%;
+
+    .titre {
+        font-family: 'Bebas Neue';
+        font-size: 50px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 1em;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 1em;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .middle-button {
+        .btn-hbcp {
+            background-color: $gold-color;
+            font-family: 'Bebas Neue';
+            font-size: 35px;
+            border-radius: 50px;
+            width: 15%;
+            margin: 8% 0;
+            color: $white-color;
+        }
+
+        .btn-hbcp:hover {
+            background-color: $gold-clair;
+            color: $white-color;
+        }
+    }
+}
